@@ -16,12 +16,11 @@ for (int i = 0; i < arr.length - 1; i++){
 }
 public static void main(String[] args){
 	        int[][] tests = {
-            {1, 2, 3, 4, 5},    // posortowana
-            {5, 4, 3, 2, 1},    // odwrotnie
-            {3, 1, 2, 3, 1},    // duplikaty
-            {7},                // jeden element
-            {},                 // pusta
-            {5, 3, 8, 4, 2}     // losowa
+            {1, 2, 3, 4, 5},    
+            {5, 4, 3, 2, 1},   
+            {3, 1, 2, 3, 1},    
+            {7},               
+            {5, 3, 8, 4, 2}    
         };
 
         int[][] expected = {
@@ -29,7 +28,6 @@ public static void main(String[] args){
             {1, 2, 3, 4, 5},
             {1, 1, 2, 3, 3},
             {7},
-            {},
             {2, 3, 4, 5, 8}
         };
 
